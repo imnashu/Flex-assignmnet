@@ -1,0 +1,59 @@
+.container, .content 
+{
+    width: 100%;
+    height: 100%;
+    
+}
+.card
+{
+    display:flex;
+    background-color: white;
+    border-bottom:solid 1px grey;
+    border-right:solid 1px grey;
+    width:80vw;
+    height: 50vh;
+    margin: 10vh;    
+}
+.img1
+{
+    width:22vw;
+    background-color:#91c673;
+}
+.imagegdiv
+{
+    display: flex;
+    width:20vw;
+    justify-content:center;
+    height:50vh;
+}
+img
+{
+    width:25vw;
+}
+.content
+{
+    margin-left: 8vw;
+}
+p{
+    font-family: sans-serif;
+    font-size: larger;
+}
+h1
+{
+    font-family:  sans-serif;
+    font-size: 60px;
+}
+.button
+{
+    text-align: center;
+    color:white;
+    padding-top:13px;
+    font-size:12px ;
+    background-color:#91c673; 
+    display: inline-block;
+    border-radius: 30px;
+    height:28px;
+    width:110px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
